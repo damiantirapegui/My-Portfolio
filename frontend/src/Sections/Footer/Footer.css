@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: rgb(221, 221, 221);
+  margin-top: 10rem;
+  padding: 30px 60px;
+}
+
+.contact-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.link-contact {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 7%;
+}

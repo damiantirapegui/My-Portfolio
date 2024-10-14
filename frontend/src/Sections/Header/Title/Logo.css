@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Odibee+Sans&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour+Convergence&display=swap");
+.logo-container {
+  padding: 30px;
+  font-size: 42px;
+  color: var(--heading-color);
+  display: flex;
+  align-items: end;
+}
+
+.logo-container h3 {
+  display: flex;
+  align-items: end;
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo {
+  z-index: 20;
+}
+
+.logo-contatiner,
+.logo::after {
+  content: "Tirapegui";
+  color: white;
+  font-size: 21px;
+  padding-bottom: 5px;
+}

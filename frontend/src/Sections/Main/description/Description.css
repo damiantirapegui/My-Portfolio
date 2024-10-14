@@ -1,0 +1,19 @@
+.description-container {
+  height: auto;
+
+  margin: 50px;
+}
+
+.article-flexbox {
+  width: 40%;
+  padding: 100px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+.description-text {
+  color: white;
+  font-size: 18px;
+  word-spacing: 6px;
+  line-height: 2rem;
+}

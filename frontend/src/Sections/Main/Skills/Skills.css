@@ -1,0 +1,52 @@
+.skills-container {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.skills-box {
+  width: 40%;
+}
+
+.skills-headline {
+  font-size: 50px;
+  color: rgb(204, 2, 2);
+  border-bottom: 6px solid rgb(204, 2, 2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  font-size: 25px;
+  color: white;
+  width: 50%;
+  align-items: center;
+}
+
+.li {
+  border-bottom: 1px solid rgb(204, 2, 2);
+  list-style: none;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.skills-description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+.card {
+  width: 20%;
+  color: white;
+  padding: 10px;
+  border: 2px solid rgb(204, 2, 2);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: rgb(204, 2, 2);
+}

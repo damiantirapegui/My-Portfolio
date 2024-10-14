@@ -1,0 +1,58 @@
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 120px 100px 40px 500px;
+}
+
+.question-headline {
+  font-size: 60px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+}
+
+.animate {
+  animation: typing 2s steps(20, end) forwards;
+  opacity: 1;
+}
+
+/* Skrivanimationen */
+@keyframes typing {
+  0% {
+    width: 0;
+    border-right-color: white;
+  }
+  90% {
+    border-right-color: white;
+  }
+  100% {
+    width: 27%;
+    border-right-color: transparent;
+  }
+}
+
+.img-container {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 500px;
+  box-shadow: 0 0 30px rgb(100, 91, 91);
+}
+
+.img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.img-container {
+  opacity: 0; /* Bilden börjar osynlig */
+  transition: opacity 1s ease-in; /* Smidig övergång för opacity */
+}
+
+.img-container.show {
+  opacity: 1; /* Bilden blir synlig */
+}
